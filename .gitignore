@@ -1,0 +1,22 @@
+# Sekrety - nigdy do repozytorium
+.env
+.env.*
+!.env.example
+
+# Starsze / pomocnicze skrypty (nieużywane przez run_all.py)
+test/
+
+# Wyniki skanów (generowane lokalnie)
+lists/
+raporty/
+models_state.json
+gateway-config.yaml
+gateway-config.yaml.bak
+*.bak
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
